@@ -1,1 +1,14 @@
-<h1>Hello rails<h1>
+<h1>SongLibs<h1>
+<h3>It was a good day - Ice Cube</h3>
+
+<%= form_with do |form| %>
+  <p>Just waking up in the mornin, gotta thank <%= form.text_field :noun, placeholder: "noun" %></p>
+  <p>I don't know but today seems kinda <%= form.text_field :noun, placeholder: "adjective rhymes w/ prev" %></p>
+  <p>No barking from the <%= form.text_field :noun, placeholder: "noun" %>, no<%= form.text_field :noun, placeholder: "noun rhymes w/ prev" %></p>
+  <p>And momma cooked a breakfast with no hog <%= form.text_field :noun, placeholder: "noun rhymes w/ prev" %></p>
+  <p>I got my grub on, but didn't pig <%= form.text_field :noun, placeholder: "verb" %></p>
+  <p>Finally, got a call from a girl I wanna dig out(verb rhymes w/ previous)<%= form.text_field :noun, placeholder: "verb rhymes w/ prev" %></p>
+  <p>Hooked it up fo' later as I hit the <%= form.text_field :noun, placeholder: "noun" %></p>
+  <p>Thinkin',  "Will I live anotha <%= form.text_field :noun, placeholder: "number rhymes w/ prev" %>"</p>
+<% end %>
+
