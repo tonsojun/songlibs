@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   root "song#index"
 
   get "/song", to: "song#index"
+  post "/song", to: "song#create"
 end
